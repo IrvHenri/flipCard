@@ -1,0 +1,92 @@
+*,
+*::before {
+  margin: 0;
+  color: #fff;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #00acee;
+  font-family: "Lato", sans-serif;
+}
+
+/* ----------------------- */
+/* ----LAYOUT------- */
+/* ------------------------- */
+.card {
+  width: 450px;
+}
+
+.card-content {
+  text-align: center;
+  position: relative;
+  padding: 10em;
+  transition: transform 2.5s;
+  background: #333;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+.card:hover .card-content {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3em;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+}
+
+.card-front {
+  background-color: rgb(100, 100, 100);
+  background-image: url(../img/toronto-skyline.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-blend-mode: overlay;
+}
+
+.card-front::before {
+  content: "";
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+  border: 3px solid #fff;
+  border-radius: 15px;
+  transform: translateZ(3rem);
+}
+
+.card-title {
+  font-size: 3rem;
+  transform: translateZ(9rem);
+}
+
+.card-subtitle {
+  order: -1;
+  font-size: 1.5rem;
+  transform: translateZ(6rem);
+}
+.card-body {
+  transform: translateZ(6rem);
+}
+.card-back {
+  background-image: url(../img/old-montreal.jpg);
+  background-color: rgb(97, 97, 97);
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-position: cover top;
+  background-blend-mode: overlay;
+}
