@@ -18,4 +18,4 @@ I built it to practice my CSS 3D animation effects. While working on this projec
 
 
 ## License
-MIT © [Irving Henriquez]()
+MIT © [Irving Henriquez](https://github.com/IrvHenri)
