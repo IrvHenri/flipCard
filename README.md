@@ -11,7 +11,7 @@ A card designed with CSS that rotates 180 degrees when the user hovers over it. 
 
 I built it to practice my CSS 3D animation effects. While working on this project I learned more about the relationship between parent and child elements with respect to styling and layout.
 
-## Tech/framework used
+## Tech Stack
 - HTML
 - CSS
 
