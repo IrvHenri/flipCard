@@ -9,7 +9,7 @@ A card designed with CSS that rotates 180 degrees when the user hovers over it. 
 
 ## Motivation
 
-I built it to practice my CSS 3D animation effects. While working on this project I learned more about the relationship between parent and child elements with respect to styling and layout.
+I built it to practice my CSS 3D animation. While working on this project I strengthened my understanding of the relationship between parent and child elements in HTML with regards to styling and layout.
 
 ## Tech Stack
 - HTML
