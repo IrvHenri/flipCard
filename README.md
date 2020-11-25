@@ -1,6 +1,6 @@
 # Portfolio: Flip Card
 
-A card designed with CSS 3D animation effects that rotates when the user hovers over the card.
+A card designed with CSS 3D animation effects that rotates when the user hovers over the it.
 
 ## Demo
 ![flipCard](https://user-images.githubusercontent.com/69181038/99693873-d6da0380-2a59-11eb-96a0-cad155930a37.jpg)
