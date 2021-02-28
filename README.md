@@ -1,4 +1,4 @@
-# Portfolio: Flip Card
+# Flip Card
 
 A card styled with CSS 3D animation that rotates when the user hovers over it.
 
